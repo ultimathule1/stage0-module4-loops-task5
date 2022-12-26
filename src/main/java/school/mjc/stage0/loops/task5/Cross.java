@@ -1,12 +1,9 @@
 package school.mjc.stage0.loops.task5;
 
 public class Cross {
-    public static void main(String[] args) {
-        printCross(8);
-    }
-    public static void printCross(int sideLength) {
+    public void printCross(int sideLength) {
         for (int i = 0; i < sideLength; i++) {
-            if ((sideLength / 2 - 1) == i) {
+            if ((sideLength / 2) == i) {
                 for (int j = 0; j < sideLength; j++) {
                     System.out.print(8);
                 }
